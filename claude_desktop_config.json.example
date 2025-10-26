@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "google-workspace-mcp": {
+      "command": "C:\\path\\to\\your\\virtual\\environment\\Scripts\\python.exe",
+      "args": ["C:\\path\\to\\Google-Workspace\\app.py"],
+      "env": {
+        "GOOGLE_WORKSPACE_PROJECT_ROOT": "C:\\path\\to\\Google-Workspace",
+        "GOOGLE_CLIENT_ID": "your-client-id.apps.googleusercontent.com",
+        "GOOGLE_CLIENT_SECRET": "your-client-secret",
+        "GOOGLE_REDIRECT_URI": "http://localhost:8080/oauth/callback",
+        "PORT": "8080"
+      }
+    }
+  }
+}
+
